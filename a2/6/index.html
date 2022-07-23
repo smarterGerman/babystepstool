@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../public/style.css">
+  <meta charset="utf-8">
+</head>
+<body class="correction-tool-body-konstantin">
+    <section class="correction-tool-section-konstantin">
+        <div class="container-konstantin hide-konstantin">
+            <div class="border-konstantin">
+            <div class="header-konstantin">
+
+            <div class="wpm-konstantin hide-konstantin">
+                <div class="head-konstantin">Words/min</div>
+                <div class="init_wpm-konstantin">100</div>
+            </div>
+            <div class="score-konstantin hide-konstantin">
+                <div class="head-konstantin">Score</div>
+                <div class="init_score-konstantin">0</div>
+            </div>
+            <div class="errors-konstantin hide-konstantin">
+                <div class="head-konstantin">Errors</div>
+                <div class="init_errors-konstantin">0</div>
+            </div>
+            <div class="timer-konstantin hide-konstantin">
+                <div class="head-konstantin">Time(s)</div>
+                <div class="init_time-konstantin">60s</div>
+            </div>
+            
+            <div class="accuracy-konstantin hide-konstantin">
+                <div class="head-konstantin">Accuracy(%)</div>
+                <div class="init_accuracy-konstantin">100</div>
+            </div>
+            </div>
+            </div>
+            <div class="checker-konstantin">Correct your mistakes before you continue.</div>
+            <div class="content-konstantin hide-konstantin"></div>
+            <div class="text-area-konstantin">
+                <textarea class="input_box-konstantin" id="tmp_text_area-konstantin" placeholder="Type the sentences above... &#10(a/ = ä, o/ = ö, u/ = ü, B/ = ß)"
+                oninput="textInput()"></textarea>
+                <!-- onfocus="startGame()" -->
+                <!-- <div contenteditable="true" class="input_box" id="txtDiv-k"
+                onfocus="startGame()" oninput="textInput()" placeholder="Test...">       
+                </div> -->
+                <div class="playbutton-konstantin">
+                    <button class="reset-button-konstantin" onclick="resetGame()">
+                        <img src="https://www.filepicker.io/api/file/9KBTW5kDRluhcmsNlIOE" width="50" height="50">
+                    </button>
+                </div>
+            </div>
+            <div class="written-konstantin hide-konstantin">
+            </div>
+            <div class="finished-section-konstantin hide-konstantin">
+            </div>
+            <!-- <br>
+            <button class="start" onclick="startGame()">Start</button><br> -->
+            <!-- <button class="restart" onclick="resetValues()">Restart</button> -->
+        </div>
+        <div class="difficulty_box-konstantin">
+            Choose your difficulty
+            <div class="easy_level-konstantin">
+                <button class="easy_btn-konstantin" onclick="easyGame()">Easy</button>
+            </div>
+            <div class="normal_level-konstantin">
+                <button class="normal_btn-konstantin" onclick="normalGame()">Normal</button>
+            </div>
+            <div class="hard_level-konstantin">
+                <button class="hard_btn-konstantin" onclick="hardGame()">Hard</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../public/index.js"></script>
+<script src="sentences.js"></script>
+</html>
