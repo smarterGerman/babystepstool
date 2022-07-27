@@ -1,0 +1,698 @@
+@media (min-width: 40.0rem) {
+
+  .correction-tool-section-konstantin {
+      color: black;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    
+    .container-konstantin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+    }
+    
+    
+    .title-konstantin {
+      margin-bottom: 20px;
+      font-size: 3rem;
+      color: whitesmoke;
+      width: 100%;
+      height: auto;
+      background-color: skyblue;
+    }
+    
+    /* .header {
+      display: flex;    
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      border-radius: 10%;
+    }
+     */
+    .timer-konstantin, .errors-konstantin,
+    .accuracy-konstantin, .cpm-konstantin, .wpm-konstantin, .score-konstantin{
+      background-color:white;
+      height: 60px;
+      width: 70px;
+      margin: 8px;
+      padding: 12px;
+      border-radius: 20%;
+      /* box-shadow: grey 5px 8px 5px; */
+    }
+  
+    /* .header {
+      background-color:white;
+      height: 60px;
+      width: 400px;
+      margin: 8px;
+      padding: 12px;
+      border-radius: 20%;
+      box-shadow: grey 5px 8px 5px;
+    } */
+    .errors-konstantin{
+      color: red;
+    }
+    .wpm-konstantin{
+      color: rgb(16, 197, 16);
+    }
+    .cpm-konstantin, .wpm-konstantin  {
+      display: none;
+    }
+    
+    .head-konstantin {
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 600;
+      color: skyblue;
+      font-weight: bolder;
+    }
+    
+    .init_time-konstantin, .init_errors-konstantin,
+    .init_accuracy-konstantin, .init_cpm-konstantin,
+    .init_wpm-konstantin, .init_score-konstantin {
+      font-size: 35px;
+    }
+    
+    .content-konstantin {
+      background-color: white;
+      font-weight: 200;
+      /* margin: 10px; */
+      padding: 0.4rem 0rem;
+      border: none;
+      width: 33.0rem;
+      /* text-align: left; */
+      /* box-shadow: grey 5px 8px 5px; */
+      /* border-radius: 10px 10px 10px 10px; */
+    }
+    
+    .written-konstantin {
+      /* background-color: #FFA4A5; */
+      font-weight: 100;
+      margin: 10px;
+      padding: 0.4rem 0rem;
+      width: 33.0rem;
+      /* text-align: left; */
+      color: black;
+    }
+    .blink-me-konstantin {
+      animation: blinker 3s linear infinite;
+      animation-iteration-count: 1;
+    }
+    
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }  
+    .finished-section-konstantin {
+      width: 33.0rem;
+      /* text-align: left; */
+    }
+    .input_box-konstantin {
+      background-color: #FFECE2;
+      height: 80px;
+      /* width: min(40%,40rem); */
+      width: 30rem;
+      font-size: 1.2rem;
+      font-weight: 200;
+      margin: 10px;
+      padding: 0.4rem 0.8rem;
+      border-radius: 10px 10px 10px 10px;
+      resize: none;
+    }
+    .input_box-konstantin:focus,
+    .input_box-konstantin:hover,
+    .input_box-konstantin:active {
+      outline:0px !important;
+      -webkit-appearance:none;
+      box-shadow: none !important; 
+    }
+    #txtDiv-konstantin {
+      background-color: #FFECE2;
+      font-weight: 200;
+      height: 5.0rem;
+      /* width: min(40%,40rem); */
+      width: 30rem;
+      font-size: 1.5rem;
+      margin: 10px;
+      /* padding: 15px; */
+      /* text-align: left; */
+      border: 0px;
+      border-radius: 10px 10px 10px 10px;  
+    }
+    .playbutton-konstantin {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: transparent;
+    }
+    .reset-button-konstantin {
+      border: none;
+      background-color: transparent;
+    }
+    .text-area-konstantin {
+      display: flex;
+      flex-direction: row;
+    }
+    /* [placeholder]:empty::before {
+      content: attr(placeholder);
+      color: #555; 
+    }
+  
+    [placeholder]:empty:focus::before {
+      content: "";
+    } */
+    .correct-konstantin{
+      color: rgb(82, 200, 82);
+    }
+    .incorrect-konstantin {
+      color: red;
+    }
+  
+  
+  
+    .checker-konstantin {
+        color: transparent;
+    }
+  
+    .difficulty_box-konstantin {
+      display: flex;
+      flex-direction: column;
+      background-color: #FFECE2;
+      font-weight: 500;
+      font-size: 2.0rem;
+      margin: auto;
+      padding: 2.0rem 1.2rem 1.2rem 1.2rem;
+      width: 50%;
+      color: #8F8F8F;
+      border-radius: 10px 10px 10px 10px;  
+    }
+    .easy_btn-konstantin, .normal_btn-konstantin, .hard_btn-konstantin{
+      font-weight: 500;
+      border: none;
+      color: white;
+      height: 10%;
+      width: 12.0rem;
+      margin: 8px;
+      padding: 12px;
+      font-size: 1.0rem;
+      border-radius: 0.4rem;
+      margin-bottom: 1.2rem;
+      /* box-shadow: grey 5px 8px 5px; */
+    }
+  
+    .easy_btn-konstantin {
+      margin-top: 2.0rem;
+      background-color: #84C7C0;
+    }
+    .normal_btn-konstantin {
+      background-color: #F1A246;
+    }
+    .hard_btn-konstantin {
+      background-color: #EA7475;
+    }
+    .hide-konstantin {
+      display: none;
+    }
+    .transparent-konstantin {
+      color: transparent;
+    }
+}
+
+/* ################################################################################# */
+/* ##################################  PHONES  ##################################### */
+/* ################################################################################# */
+/* #       ######     ###############  #####  #####     ############################ */
+/* ######  ####  #####  #############  #####  ###  #####  ########################## */
+/* ######  ####  #####  #############  #####  ###  #####  ########################## */
+/* ######  ####  #####  #############  #####  ###  #####  ########################## */
+/* ##      ####  #####  ####      ###  #####  ###  #####  ########################## */
+/* ##  ########  #####  ####      ###         ###  #####  ########################## */
+/* ##  ########  #####  ####################  ###  #####  ########################## */
+/* ##  ########  #####  ####################  ###  #####  ########################## */
+/* ##      ######     ######################  #####     ############################ */
+/* ################################################################################# */
+/* ################################################################################# */
+/* ################################################################################# */
+/* ################################################################################# */
+@media (min-width: 20.0rem) and (max-width: 40.0rem) {
+  .correction-tool-section-konstantin {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .container-konstantin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  
+  .title-konstantin {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    background-color: skyblue;
+  }
+  
+  /* .header {
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10%;
+  }
+   */
+  .timer-konstantin, .errors-konstantin,
+  .accuracy-konstantin, .cpm-konstantin, .wpm-konstantin, .score-konstantin{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    /* box-shadow: grey 5px 8px 5px; */
+  }
+
+  /* .header {
+    background-color:white;
+    height: 60px;
+    width: 400px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: grey 5px 8px 5px;
+  } */
+  .errors-konstantin{
+    color: red;
+  }
+  .wpm-konstantin{
+    color: rgb(16, 197, 16);
+  }
+  .cpm-konstantin, .wpm-konstantin  {
+    display: none;
+  }
+  
+  .head-konstantin {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    color: skyblue;
+    font-weight: bolder;
+  }
+  
+  .init_time-konstantin, .init_errors-konstantin,
+  .init_accuracy-konstantin, .init_cpm-konstantin,
+  .init_wpm-konstantin, .init_score-konstantin {
+    font-size: 35px;
+  }
+  
+  .content-konstantin {
+    background-color: white;
+    font-weight: 200;
+    /* margin: 10px; */
+    padding: 0.4rem 0rem;
+    border: none;
+    width: 30.0rem;
+    /* text-align: left; */
+    /* box-shadow: grey 5px 8px 5px; */
+    /* border-radius: 10px 10px 10px 10px; */
+  }
+  
+  .written-konstantin {
+    /* background-color: #FFA4A5; */
+    font-weight: 100;
+    margin: 10px;
+    padding: 0.4rem 0rem;
+    width: 30.0rem;
+    /* text-align: left; */
+    color: black;
+  }
+  .blink-me-konstantin {
+    animation: blinker 3s linear infinite;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }  
+  .finished-section-konstantin {
+    width: 30.0rem;
+    /* text-align: left; */
+  }
+  .input_box-konstantin {
+    background-color: #FFECE2;
+    height: 80px;
+    width: 27.0rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 10px;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px 10px 10px 10px;
+    resize: none;
+  }
+  .input_box-konstantin:focus,
+  .input_box-konstantin:hover,
+  .input_box-konstantin:active {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important; 
+  }
+  #txtDiv-konstantin {
+    background-color: #FFECE2;
+    font-weight: 200;
+    height: 5.0rem;
+    /* width: min(40%,40rem); */
+    width: 30rem;
+    font-size: 1.5rem;
+    margin: 10px;
+    /* padding: 15px; */
+    /* text-align: left; */
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;  
+  }
+  .playbutton-konstantin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .reset-button-konstantin {
+    border: none;
+    background-color: transparent;
+  }
+  .text-area-konstantin {
+    display: flex;
+    flex-direction: row;
+  }
+  /* [placeholder]:empty::before {
+    content: attr(placeholder);
+    color: #555; 
+  }
+
+  [placeholder]:empty:focus::before {
+    content: "";
+  } */
+  .correct-konstantin{
+    color: rgb(82, 200, 82);
+  }
+  .incorrect-konstantin {
+    color: red;
+  }
+
+
+
+  .checker-konstantin {
+      color: transparent;
+  }
+
+  .difficulty_box-konstantin {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFECE2;
+    font-weight: 500;
+    font-size: 2.0rem;
+    margin: auto;
+    padding: 2.0rem 1.2rem 1.2rem 1.2rem;;
+    /* width: 50%; */
+    color: #8F8F8F;
+    border-radius: 10px 10px 10px 10px;  
+  }
+  .easy_btn-konstantin, .normal_btn-konstantin, .hard_btn-konstantin{
+    font-weight: 500;
+    border: none;
+    color: white;
+    height: 10%;
+    width: 9.0rem;
+    margin: 8px;
+    padding: 12px;
+    font-size: 1.0rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.2rem;
+    /* box-shadow: grey 5px 8px 5px; */
+  }
+
+  .easy_btn-konstantin {
+    margin-top: 2.0rem;
+    background-color: #84C7C0;
+  }
+  .normal_btn-konstantin {
+    background-color: #F1A246;
+  }
+  .hard_btn-konstantin {
+    background-color: #EA7475;
+  }
+  .hide-konstantin {
+    display: none;
+  }
+  .transparent-konstantin {
+    color: transparent;
+  }
+}
+/* ################################################################################# */
+/* ##################################  PHONES  ##################################### */
+/* ################################################################################# */
+/* #####     ####################         #####     ################################ */
+/* ###  #####  #########################  ###  #####  ############################## */
+/* ###  #####  #########################  ###  #####  ############################## */
+/* ###  #####  #########################  ###  #####  ############################## */
+/* ###  #####  ######      #############  ###  #####  ############################## */
+/* ###  #####  ######      ######         ###  #####  ############################## */
+/* ###  #####  ##################  ##########  #####  ############################## */
+/* ###  #####  ##################  ##########  #####  ############################## */
+/* #####     ####################         #####     ################################ */
+/* ################################################################################# */
+/* ################################################################################# */
+/* ################################################################################# */
+/* ################################################################################# */
+@media (max-width: 20.0rem) {
+  .correction-tool-section-konstantin {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .container-konstantin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  
+  .title-konstantin {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    background-color: skyblue;
+  }
+  
+  /* .header {
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10%;
+  }
+   */
+  .timer-konstantin, .errors-konstantin,
+  .accuracy-konstantin, .cpm-konstantin, .wpm-konstantin, .score-konstantin{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    /* box-shadow: grey 5px 8px 5px; */
+  }
+
+  /* .header {
+    background-color:white;
+    height: 60px;
+    width: 400px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: grey 5px 8px 5px;
+  } */
+  .errors-konstantin{
+    color: red;
+  }
+  .wpm-konstantin{
+    color: rgb(16, 197, 16);
+  }
+  .cpm-konstantin, .wpm-konstantin  {
+    display: none;
+  }
+  
+  .head-konstantin {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    color: skyblue;
+    font-weight: bolder;
+  }
+  
+  .init_time-konstantin, .init_errors-konstantin,
+  .init_accuracy-konstantin, .init_cpm-konstantin,
+  .init_wpm-konstantin, .init_score-konstantin {
+    font-size: 35px;
+  }
+  
+  .content-konstantin {
+    background-color: white;
+    font-weight: 200;
+    /* margin: 10px; */
+    padding: 0.4rem 0rem;
+    border: none;
+    width: 17.0rem;
+    /* text-align: left; */
+    /* box-shadow: grey 5px 8px 5px; */
+    /* border-radius: 10px 10px 10px 10px; */
+  }
+  
+  .written-konstantin {
+    /* background-color: #FFA4A5; */
+    font-weight: 100;
+    margin: 10px;
+    padding: 0.4rem 0rem;
+    width: 16.5rem;
+    /* text-align: left; */
+    color: black;
+  }
+  .blink-me-konstantin {
+    animation: blinker 3s linear infinite;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }  
+  .finished-section-konstantin {
+    width: 16.5rem;
+    /* text-align: left; */
+  }
+  .input_box-konstantin {
+    background-color: #FFECE2;
+    height: 80px;
+    width: 13.0rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 10px;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px 10px 10px 10px;
+    resize: none;
+  }
+  .input_box-konstantin:focus,
+  .input_box-konstantin:hover,
+  .input_box-konstantin:active {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important; 
+  }
+  #txtDiv-konstantin {
+    background-color: #FFECE2;
+    font-weight: 200;
+    height: 5.0rem;
+    /* width: min(40%,40rem); */
+    width: 30rem;
+    font-size: 1.5rem;
+    margin: 10px;
+    /* padding: 15px; */
+    /* text-align: left; */
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;  
+  }
+  .playbutton-konstantin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .reset-button-konstantin {
+    border: none;
+    background-color: transparent;
+  }
+  .text-area-konstantin {
+    display: flex;
+    flex-direction: row;
+  }
+  /* [placeholder]:empty::before {
+    content: attr(placeholder);
+    color: #555; 
+  }
+
+  [placeholder]:empty:focus::before {
+    content: "";
+  } */
+  .correct-konstantin{
+    color: rgb(82, 200, 82);
+  }
+  .incorrect-konstantin {
+    color: red;
+  }
+
+
+
+  .checker-konstantin {
+      color: transparent;
+  }
+
+  .difficulty_box-konstantin {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFECE2;
+    font-weight: 500;
+    font-size: 2.0rem;
+    margin: auto;
+    padding: 2.0rem 1.2rem 1.2rem 1.2rem;;
+    /* width: 50%; */
+    color: #8F8F8F;
+    border-radius: 10px 10px 10px 10px;  
+  }
+  .easy_btn-konstantin, .normal_btn-konstantin, .hard_btn-konstantin{
+    font-weight: 500;
+    border: none;
+    color: white;
+    height: 10%;
+    width: 9.0rem;
+    margin: 8px;
+    padding: 12px;
+    font-size: 1.0rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.2rem;
+    /* box-shadow: grey 5px 8px 5px; */
+  }
+
+  .easy_btn-konstantin {
+    margin-top: 2.0rem;
+    background-color: #84C7C0;
+  }
+  .normal_btn-konstantin {
+    background-color: #F1A246;
+  }
+  .hard_btn-konstantin {
+    background-color: #EA7475;
+  }
+  .hide-konstantin {
+    display: none;
+  }
+  .transparent-konstantin {
+    color: transparent;
+  }
+}
