@@ -170,19 +170,19 @@ function textInput() {
       input_box.value = input_box.value.slice(0,-2)+"ö";
     }
     // UMLAUT Ö
-    if ((input_array.slice(-2).equals(['O','/']))) {
+    if ((input_array.slice(-2).equals(['O','e']))) {
       input_box.value = input_box.value.slice(0,-2)+"Ö";
     }
     // UMLAUT ü
-    if ((input_array.slice(-2).equals(['u','/']))) {
+    if ((input_array.slice(-2).equals(['u','e']))) {
       input_box.value = input_box.value.slice(0,-2)+"ü";
     }
     // UMLAUT Ü
-    if ((input_array.slice(-2).equals(['U','/']))) {
+    if ((input_array.slice(-2).equals(['U','e']))) {
       input_box.value = input_box.value.slice(0,-2)+"Ü";
     }
     // ß
-    if ((input_array.slice(-2).equals(['B','/']))) {
+    if ((input_array.slice(-2).equals(['s','z']))) {
       input_box.value = input_box.value.slice(0,-2)+"ß";
     }
   }
