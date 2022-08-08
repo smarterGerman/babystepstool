@@ -158,31 +158,31 @@ function textInput() {
 
   if (input_box.value.length > 1 ) {
     // UMLAUT ä
-    if ((input_array.slice(-2).equals(['a','e']))) {
+    if ((input_array.slice(-2).equals(['a','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"ä";
     }
     // UMLAUT Ä
-    if ((input_array.slice(-2).equals(['A','e']))) {
+    if ((input_array.slice(-2).equals(['A','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"Ä";
     }
     // UMLAUT ö
-    if ((input_array.slice(-2).equals(['o','e']))) {
+    if ((input_array.slice(-2).equals(['o','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"ö";
     }
     // UMLAUT Ö
-    if ((input_array.slice(-2).equals(['O','e']))) {
+    if ((input_array.slice(-2).equals(['O','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"Ö";
     }
     // UMLAUT ü
-    if ((input_array.slice(-2).equals(['u','e']))) {
+    if ((input_array.slice(-2).equals(['u','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"ü";
     }
     // UMLAUT Ü
-    if ((input_array.slice(-2).equals(['U','e']))) {
+    if ((input_array.slice(-2).equals(['U','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"Ü";
     }
     // ß
-    if ((input_array.slice(-2).equals(['s','z']))) {
+    if ((input_array.slice(-2).equals(['B','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"ß";
     }
   }
