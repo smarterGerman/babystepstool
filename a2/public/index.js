@@ -141,7 +141,7 @@ function textInput() {
     }
       // ’
       if ((input_array.slice(-1).equals(['\'']))) {
-        input_box.value = input_box.value.slice(0,-2)+"’";
+        input_box.value = input_box.value.slice(0,-1)+"’";
     }
   }
 
