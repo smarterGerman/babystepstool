@@ -83,6 +83,7 @@ function triggerFocus(element) {
 }
 
  
+ 
 let content_counter = 0;
 function ChangeContent() {
   if (content_counter < tmp_content.length) {
@@ -139,10 +140,10 @@ function textInput() {
     if ((input_array.slice(-2).equals(['B','/']))) {
       input_box.value = input_box.value.slice(0,-2)+"ß";
     }
-      // ’
-      if ((input_array.slice(-1).equals(['\'']))) {
-        input_box.value = input_box.value.slice(0,-1)+"’";
-    }
+    // ’
+    if ((input_array.slice(-1).equals(['\'']))) {
+      input_box.value = input_box.value.slice(0,-1)+"’";
+  }
   }
 
   typed++;
