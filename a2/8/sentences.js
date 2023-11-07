@@ -15,6 +15,7 @@ function normalGame() {
  difficulty_level = 2;
  tool_container.classList.remove("hide-konstantin");
  tmp_content = ["Liebe Vera,",
+"ich liege krank im Bett.",
 "Wahrscheinlich Covid.",
 "Könntest du für",
 "mich einkaufen gehen?",
