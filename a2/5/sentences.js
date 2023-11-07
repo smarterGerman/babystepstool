@@ -17,6 +17,7 @@ function normalGame() {
  difficulty_level = 2;
  tool_container.classList.remove("hide-konstantin");
  tmp_content = ["Liebe Maria,",
+"Entschuldige bitte,",
 "aber ich verspäte",
 "mich ein paar",
 "Minuten,",
