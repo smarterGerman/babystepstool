@@ -2,7 +2,7 @@ function easyGame() {
  difficulty_level = 1;
  tool_container.classList.remove("hide-konstantin");
  tmp_content = ["Sehr geehrter Herr Herrlich,",
-"Entschuldigen Sie bitte,",
+"entschuldigen Sie bitte,",
 "aber ich verspäte mich leider ein paar Minuten.",
 "weil ich die Bahn verpasst habe.",
 "Ich bin in zehn Minuten bei Ihnen.",
@@ -16,9 +16,8 @@ function easyGame() {
 function normalGame() {
  difficulty_level = 2;
  tool_container.classList.remove("hide-konstantin");
- tmp_content = ["Sehr geehrter",
-"Herr Herrlich,",
-"Entschuldigen Sie bitte,",
+ tmp_content = ["Sehr geehrter Herr Herrlich",
+"entschuldigen Sie bitte,",
 "aber ich verspäte mich",
 "leider ein paar Minuten.",
 "weil ich die",
@@ -38,7 +37,7 @@ function hardGame() {
  difficulty_level = 3;
  tool_container.classList.remove("hide-konstantin");
  tmp_content = ["Sehr geehrter Herr Herrlich,",
-"Entschuldigen Sie bitte,",
+"entschuldigen Sie bitte,",
 "aber ich verspäte mich leider ein paar Minuten.",
 "weil ich die Bahn verpasst habe.",
 "Ich bin in zehn Minuten bei Ihnen.",
