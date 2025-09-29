@@ -4,7 +4,7 @@ function easyGame() {
  tmp_content = ["Liebe Liese,",
 "lange nichts gehört.",
 "Es gibt eine tolle Neuigkeit.",
-"ich fliege nächste Woche nach Indien.",
+"Ich fliege nächste Woche nach Indien.",
 "Warst du schon mal in Indien?",
 "Ich freu mich, von dir zu hören.",
 "Dein Deinhard"];
@@ -20,7 +20,7 @@ function normalGame() {
 "Es gibt",
 "eine tolle",
 "Neuigkeit.",
-"ich fliege nächste",
+"Ich fliege nächste",
 "Woche nach Indien.",
 "Warst du schon",
 "mal in Indien?",
@@ -38,7 +38,7 @@ function hardGame() {
  tmp_content = ["Liebe Liese,",
 "lange nichts gehört.",
 "Es gibt eine tolle Neuigkeit.",
-"ich fliege nächste Woche nach Indien.",
+"Ich fliege nächste Woche nach Indien.",
 "Warst du schon mal in Indien?",
 "Ich freu mich, von dir zu hören.",
 "Dein Deinhard"];
