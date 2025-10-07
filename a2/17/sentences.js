@@ -3,7 +3,7 @@ function easyGame() {
  tool_container.classList.remove("hide-konstantin");
  tmp_content = ["Liebe Liese,",
 "dein Mann hat bald Geburtstag",
-"und ich würde ihm gerne etwas schenken,",
+"und ich würde ihm gerne etwas schenken.",
 "Worüber würde er sich freuen?",
 "Vielleicht hast du ja eine Idee.",
 "Ich freu mich, von dir zu hören.",
@@ -21,7 +21,7 @@ function normalGame() {
 "Geburtstag",
 "und ich würde",
 "ihm gerne etwas",
-"schenken,",
+"schenken.",
 "Worüber würde",
 "er sich",
 "freuen?",
@@ -40,7 +40,7 @@ function hardGame() {
  tool_container.classList.remove("hide-konstantin");
  tmp_content = ["Liebe Liese,",
 "dein Mann hat bald Geburtstag",
-"und ich würde ihm gerne etwas schenken,",
+"und ich würde ihm gerne etwas schenken.",
 "Worüber würde er sich freuen?",
 "Vielleicht hast du ja eine Idee.",
 "Ich freu mich, von dir zu hören.",
