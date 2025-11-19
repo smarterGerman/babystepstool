@@ -153,6 +153,14 @@
     .reset-button-konstantin {
       border: none;
       background-color: transparent;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .reset-button-konstantin:hover {
+      transform: rotate(-15deg) scale(1.1);
+    }
+    .reset-button-konstantin:active {
+      transform: rotate(-30deg) scale(0.95);
     }
     .text-area-konstantin {
       display: flex;
@@ -393,6 +401,14 @@
   .reset-button-konstantin {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .reset-button-konstantin:hover {
+    transform: rotate(-15deg) scale(1.1);
+  }
+  .reset-button-konstantin:active {
+    transform: rotate(-30deg) scale(0.95);
   }
   .text-area-konstantin {
     display: flex;
@@ -632,6 +648,14 @@
   .reset-button-konstantin {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .reset-button-konstantin:hover {
+    transform: rotate(-15deg) scale(1.1);
+  }
+  .reset-button-konstantin:active {
+    transform: rotate(-30deg) scale(0.95);
   }
   .text-area-konstantin {
     display: flex;
