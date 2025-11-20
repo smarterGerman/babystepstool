@@ -232,7 +232,7 @@ function startGame() {
   start = Date.now();
   content_text.classList.remove("hide-konstantin");
   start_btn.classList.remove("hide-konstantin");
-  start_btn.innerHTML = "<img src=\"https://www.filepicker.io/api/file/9KBTW5kDRluhcmsNlIOE\" width=\"50\" height=\"50\">";
+  start_btn.innerHTML = "<img src=\"https://smartergerman.github.io/babystepstool/icons/reset-button.png\" width=\"50\" height=\"50\">";
   ChangeContent();
   start_counter++;
 }
